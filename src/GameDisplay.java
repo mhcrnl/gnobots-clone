@@ -58,11 +58,11 @@ public class GameDisplay extends JFrame implements ActionListener, MouseListener
   JPanel createBoardPanel(int height, int width) { 
     JPanel boardPanel = new JPanel(new GridLayout(height,width));
     //Example of displaying one the icons given to us. In this case, the standard robot
-    robot = new ImageIcon("robot.png");
-    brokenRobot = new ImageIcon("robot2.png");
-    debris = new ImageIcon("debris.png");
-    deadPlayer = new ImageIcon("dead.png");
-    player = new ImageIcon("player.png");
+    robot = new ImageIcon("../images/robot.png");
+    brokenRobot = new ImageIcon("../images/robot2.png");
+    debris = new ImageIcon("../images/debris.png");
+    deadPlayer = new ImageIcon("../images/dead.png");
+    player = new ImageIcon("../images/player.png");
     boardPanel.setBackground(Color.WHITE);
     boardPanel.setOpaque(true);
     //boardPanel.add(lightLabel);
